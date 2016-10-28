@@ -16,7 +16,6 @@ int main(){
         cout << "Ingrese una opcion: ";
         cin >> opcion;
         if(opcion == 1){
-        	cout << "hola";
         	inicioDomingo();
         }
         if(opcion == 2){
@@ -24,7 +23,9 @@ int main(){
         }
 
         if(opcion == 3){
-        	cout << "Entro 3" << endl;
+        	cout << "Ingrese un numero: ";
+        	cin >> numero;
+        	permutaciones();
         }
         cout << "Desea seguir? 1-Si, 0-No"<< endl;
     }//fin de do-while
@@ -82,7 +83,7 @@ void inicioDomingo(){
 void permutaciones(){
 	stringstream estring;
 	estring << numero;
-	string ingresado = estring.str();
+	string ingresad = estring.str();
 
 	if(ingresado.size() == 1){
 		cout << ingresado[0] << endl;
@@ -122,12 +123,11 @@ void permutaciones(){
 		cout << ingresado[2] << ingresado[3] << ingresado [0] << ingresado [1] << endl;
 
 		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [0] << endl;
-		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
-		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
-		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
-		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
-		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
-
+		cout << ingresado[3] << ingresado[1] << ingresado [0] << ingresado [2] << endl;
+		cout << ingresado[3] << ingresado[0] << ingresado [1] << ingresado [2] << endl;
+		cout << ingresado[3] << ingresado[2] << ingresado [0] << ingresado [1] << endl;
+		cout << ingresado[3] << ingresado[2] << ingresado [1] << ingresado [0] << endl;
+		cout << ingresado[3] << ingresado[0] << ingresado [3] << ingresado [2] << endl;
 	}
 }
 
