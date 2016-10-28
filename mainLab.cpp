@@ -86,7 +86,7 @@ void permutaciones(){
 	string ingresado = estring.str();
 
 	if(ingresado.size() == 1){
-		cout << ingresado[0] << endl;
+		cout << ingresado[0] << "\n";
 
 	}else if(ingresado.size() == 2){
 		cout << ingresado[0] << ingesado[1]<< endl;
