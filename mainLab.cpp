@@ -83,7 +83,7 @@ void inicioDomingo(){
 void permutaciones(){
 	stringstream estring;
 	estring << numero;
-	string ingresad = estring.str();
+	string ingresado = estring.str();
 
 	if(ingresado.size() == 1){
 		cout << ingresado[0] << endl;
