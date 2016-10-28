@@ -13,8 +13,10 @@ int main(){
         cout << "3. Ejercicio 3" << endl;
         cout << "Ingrese una opcion: ";
         cin >> opcion;
+        cout << "holasss";
         switch(opcion){
-            case 1:{
+        	case 1:{
+            	cout << "hola";
                 inicioDomingo();
                 break;
             }
