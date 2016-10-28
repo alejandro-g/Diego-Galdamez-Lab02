@@ -16,7 +16,7 @@ int main(){
         cout << "Ingrese una opcion: ";
         cin >> opcion;
         if(opcion == 1){
-        	inicioDomingo()
+        	inicioDomingo();
         }
         if(opcion == 2){
         	cout << "Entro 2" << endl;
