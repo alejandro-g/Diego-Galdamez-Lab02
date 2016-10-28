@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -35,7 +37,7 @@ void inicioDomingo(){
     int diasDelMes = 0;
     int cantidadDomingos = -1;
     int diasDeSemana = 2;
-    for (int indexAnios = 1900; indexAnios <=2000; ++indexAnios)
+    for (int indexAnios = 1901; indexAnios <=1999; ++indexAnios)
     {
         if(indexAnios % 4 == 0){
             anioBisiesto = 4;
@@ -77,6 +79,39 @@ void inicioDomingo(){
     cout << "La cantidad de meses que inician con Domingo son: " << cantidadDomingos << endl;
 }
 
-//void intercambiar(char* numeroIzquierdo, char* numeroDerecho){
-	//char numeroActual = 
-//}
+void permutaciones(){
+	stringstream estring;
+	estring << numero;
+	string ingresado = estring.str();
+
+	if(ingresado.size() == 1){
+		cout << ingresado[0] << endl;
+
+	}else if(ingresado.size() == 2){
+		cout << ingresado[0] << ingesado[1]<< endl;
+		cout << ingresado[1] << ingresado[0] << endl;
+	
+	}else if(ingresado.size() == 3){
+		cout << ingresado[0] << ingresado[1] << ingresado [2] << endl;
+		cout << ingresado[0] << ingresado[2] << ingresado [1] << endl;
+		cout << ingresado[1] << ingresado[2] << ingresado [0] << endl;
+		cout << ingresado[1] << ingresado[0] << ingresado [2] << endl;
+		cout << ingresado[2] << ingresado[1] << ingresado [0] << endl;
+		cout << ingresado[2] << ingresado[0] << ingresado [1] << endl;
+	
+	}else if(ingresado.size() == 4){
+		cout << ingresado[0] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
+		cout << ingresado[0] << ingresado[1] << ingresado [3] << ingresado [2] << endl;
+		cout << ingresado[0] << ingresado[2] << ingresado [1] << ingresado [3] << endl;
+		cout << ingresado[0] << ingresado[2] << ingresado [3] << ingresado [1] << endl;
+		cout << ingresado[0] << ingresado[3] << ingresado [2] << ingresado [1] << endl;
+		cout << ingresado[0] << ingresado[3] << ingresado [1] << ingresado [2] << endl;
+
+		cout << ingresado[1] << ingresado[0] << ingresado [2] << ingresado [3] << endl;
+		cout << ingresado[1] << ingresado[2] << ingresado [0] << ingresado [3] << endl;
+		cout << ingresado[1] << ingresado[0] << ingresado [3] << ingresado [2] << endl;
+		cout << ingresado[1] << ingresado[] << ingresado [] << ingresado [] << endl;
+	}
+}
+
+
