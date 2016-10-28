@@ -110,7 +110,24 @@ void permutaciones(){
 		cout << ingresado[1] << ingresado[0] << ingresado [2] << ingresado [3] << endl;
 		cout << ingresado[1] << ingresado[2] << ingresado [0] << ingresado [3] << endl;
 		cout << ingresado[1] << ingresado[0] << ingresado [3] << ingresado [2] << endl;
-		cout << ingresado[1] << ingresado[] << ingresado [] << ingresado [] << endl;
+		cout << ingresado[1] << ingresado[2] << ingresado [3] << ingresado [0] << endl;
+		cout << ingresado[1] << ingresado[3] << ingresado [0] << ingresado [2] << endl;
+		cout << ingresado[1] << ingresado[3] << ingresado [2] << ingresado [0] << endl;
+
+		cout << ingresado[2] << ingresado[0] << ingresado [1] << ingresado [3] << endl;
+		cout << ingresado[2] << ingresado[0] << ingresado [3] << ingresado [1] << endl;
+		cout << ingresado[2] << ingresado[1] << ingresado [0] << ingresado [3] << endl;
+		cout << ingresado[2] << ingresado[1] << ingresado [3] << ingresado [0] << endl;
+		cout << ingresado[2] << ingresado[3] << ingresado [1] << ingresado [0] << endl;
+		cout << ingresado[2] << ingresado[3] << ingresado [0] << ingresado [1] << endl;
+
+		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [0] << endl;
+		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
+		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
+		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
+		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
+		cout << ingresado[3] << ingresado[1] << ingresado [2] << ingresado [3] << endl;
+
 	}
 }
 
