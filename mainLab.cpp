@@ -26,7 +26,7 @@ int main(){
         }
         cout << "Desea seguir? 1-Si, 0-No"<< endl;
     }//fin de do-while
-    while(opcion != 0 && opcion > 4);
+    while(opcion > 0 && opcion > 4);
     return 0;
 }//fin main
 
@@ -76,3 +76,7 @@ void inicioDomingo(){
     }
     cout << "La cantidad de meses que inician con Domingo son: " << cantidadDomingos << endl;
 }
+
+//void intercambiar(char* numeroIzquierdo, char* numeroDerecho){
+	//char numeroActual = 
+//}
