@@ -13,25 +13,20 @@ int main(){
         cout << "3. Ejercicio 3" << endl;
         cout << "Ingrese una opcion: ";
         cin >> opcion;
-        cout << "holasss";
-        switch(opcion){
-        	case 1:{
-            	cout << "hola";
-                inicioDomingo();
-                break;
-            }
-            case 2:{
-                cout << "Entro 2" << endl;
-                break;
-            }
-            case 3:{
-                cout << "Entro 3" << endl;
-                break;
-            }
-        }//fin de switch
+        if(opcion == 1){
+        	cout << "hola";
+        	inicioDomingo();
+        }
+        if(opcion == 2){
+        	cout << "Entro 2" << endl;
+        }
+
+        if(opcion == 3){
+        	cout << "Entro 3" << endl;
+        }
         cout << "Desea seguir? 1-Si, 0-No"<< endl;
     }//fin de do-while
-    while(opcion == 0);
+    while(opcion != 0 && opcion > 4);
     return 0;
 }//fin main
 
